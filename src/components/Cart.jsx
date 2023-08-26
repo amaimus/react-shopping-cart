@@ -1,9 +1,11 @@
 import { useId } from 'react'
 import { CartIcon, ClearCartIcon, RemoveFromCartIcon } from './Icons.jsx'
+import { useCart } from '../hooks/useCart.js'
 import './Cart.css'
 
 export function Cart () {
   const cartCheckboxId = useId()
+  const { clearCart } = useCart()
 
   return (
     <>
@@ -27,7 +29,7 @@ export function Cart () {
             <button>+</button>
           </footer>
         </ul>
-        <button>
+        <button onClick={clearCart}>
           <ClearCartIcon/>
         </button>
       </aside>
