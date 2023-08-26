@@ -9,7 +9,8 @@ export function Footer () {
   return (
     <footer className='footer'>
       {/* { JSON.stringify(filters) } */}
-      { JSON.stringify(cart) }
+      { /* JSON.stringify(cart) */ }
+      React 💖
     </footer>
   )
 }
