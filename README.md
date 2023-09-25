@@ -1,27 +1,27 @@
-# Enunciado
+# Shopping Cart - React
 
-Ecommerce
+**Spanish** 🟥
 
-- [x] Muestra una lista de productos que vienen de un JSON
-- [x] Añade un filtro por categoría
-- [x] Añade un filtro por precio
+Una implementación de un carrito de compra desarrollado con React. Muestra una lista de productos y filtra por categoría y precio. Es posible añadir y eliminar productos del carrito, y se sincronizan los cambios del carrito con la lista de productos. Utilizamos contextos para evitar pasar propiedades innecesarias y localStorage para guardar el estado global.
 
-Haz uso de useContext para evitar pasar props innecesarias.
+**English** 🟦 
 
-Carrito:
+An implementation of a shopping cart developed with React. Displays a list of products and filters by category and price. Products can be added and removed from the cart, and cart changes are synchronized with the product list. We use contexts to avoid passing unnecessary properties and localStorage to persist global state.
 
-- [x] Haz que se puedan añadir los productos a un carrito.
-- [x] Haz que se puedan eliminar los productos del carrito.
-- [x] Haz que se puedan modificar la cantidad de productos del carrito.
-- [x] Sincroniza los cambios del carrito con la lista de productos.
-- [x] Guarda en un localStorage el carrito para que se recupere al recargar la página. (da puntos)
-![image](https://github.com/amaimus/react-shopping-cart/assets/35699916/8a40a476-e3ec-4ace-996d-b30597d77b9f)
+![react-shopping-cart](https://github.com/amaimus/react-shopping-cart/assets/35699916/c1c97912-9b27-4c2c-88ad-a89556dacc0b)
 
+--- 
 
-![image](https://github.com/amaimus/react-shopping-cart/assets/35699916/b6ee9a1f-3da8-4afb-b78a-056d5555ef7e)
+### APIs:
 
+- Random Facts: https://catfact.ninja/fact
+- Random image: https://cataas.com/cat/says/hello
 
+- [x] Retrieves a random cat fact from the first API.
+- [x] Recover the first three words of the fact.
+- [x] Shows a picture of a cat with the first three words.
 
+@midudev react class 2023
 
 
 
