@@ -12,14 +12,20 @@ An implementation of a shopping cart developed with React. Displays a list of pr
 
 --- 
 
-### APIs:
+### Ecommerce
 
-- Random Facts: https://catfact.ninja/fact
-- Random image: https://cataas.com/cat/says/hello
+- [x] Show a list of products that come from a JSON
+- [x] Add a filter by category
+- [x] Add a filter by price
+- [x] Make use of useContext to avoid passing unnecessary props.
 
-- [x] Retrieves a random cat fact from the first API.
-- [x] Recover the first three words of the fact.
-- [x] Shows a picture of a cat with the first three words.
+### Cart:
+
+- [x] Make it possible to add products to a cart.
+- [x] Make it possible to remove products from the cart.
+- [x] Make it possible to modify the quantity of products in the cart.
+- [x] Synchronize cart changes with the product list.
+- [x] Save the cart in a localStorage so that it is recovered when the page is reloaded. (gives points)
 
 @midudev react class 2023
 
