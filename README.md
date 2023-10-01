@@ -8,7 +8,7 @@ Una implementación de un carrito de compra desarrollado con React. Muestra una 
 
 An implementation of a shopping cart developed with React. Displays a list of products and filters by category and price. Products can be added and removed from the cart, and cart changes are synchronized with the product list. We use contexts to avoid passing unnecessary properties and localStorage to persist global state.
 
-![react-shopping-cart](https://github.com/amaimus/react-shopping-cart/assets/35699916/c1c97912-9b27-4c2c-88ad-a89556dacc0b)
+<img src='public/react-shopping-cart.png'/>
 
 --- 
 
